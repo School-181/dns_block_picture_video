@@ -1,0 +1,72 @@
+! --- Блокировка Потокового Видео ---
+||youtube.com^
+||googlevideo.com^
+||youtu.be^
+||rutube.ru^
+||twitch.tv^
+||tiktok.com^
+||tiktokv.com^
+||vimeo.com^
+||vk.com/video^
+||dzen.ru/video^
+
+! --- Блокировка Картинок (Google) ---
+! Блокирует поддомен поиска картинок
+||images.google.ru^
+||images.google.com^
+! Блокирует сами миниатюры картинок (превью)
+||encrypted-tbn0.gstatic.com^
+||encrypted-tbn1.gstatic.com^
+||encrypted-tbn2.gstatic.com^
+||encrypted-tbn3.gstatic.com^
+
+! --- Блокировка Картинок (Yandex) ---
+! ВНИМАНИЕ: Яндекс Картинки находятся на том же домене, что и поиск.
+! Мы блокируем сервера хранения картинок. Поиск работать будет, но картинки не прогрузятся.
+||avatars.mds.yandex.net^
+||im0-tub-ru.yandex.net^
+
+! --- Блокировка Картинок (Bing / Microsoft) ---
+! mm.bing.net - отсюда грузятся все превьюшки в поиске Bing
+||mm.bing.net^
+||th.bing.com^
+! Сам интерфейс поиска картинок
+||bing.com/images^ 
+! (DNS может не понять путь после слэша, но на всякий случай некоторые клиенты это парсят)
+
+! --- Блокировка Картинок (DuckDuckGo) ---
+! DDG проксирует все картинки через свои сервера для приватности. Убьем их.
+||external-content.duckduckgo.com^
+||proxy.duckduckgo.com^
+
+! --- Блокировка Картинок (Yahoo) ---
+||images.search.yahoo.com^
+||yimg.com^
+
+! --- Блокировка Картинок (Mail.ru) ---
+! В РФ часто пользуются. Убиваем сервера хранения фото.
+||img.mail.ru^
+||content.foto.my.mail.ru^
+
+! --- Блокировка Картинок (Rambler) ---
+||images.rambler.ru^
+||img01.rl0.ru^
+||img02.rl0.ru^
+||img03.rl0.ru^
+||img04.rl0.ru^
+
+! --- Визуальные соцсети (Pinterest / Instagram) ---
+! Это главные рассадники визуального контента и списывания по фото
+||pinterest.com^
+||pinterest.ru^
+||pinimg.com^
+||instagram.com^
+||cdninstagram.com^
+
+! --- Обмен скриншотами (Lightshot / Imgur / Discord Media) ---
+! Чтобы друг другу не кидали фотки решений
+||prnt.sc^
+||imgur.com^
+||i.imgur.com^
+||media.discordapp.net^
+||cdn.discordapp.com^
